@@ -1,4 +1,8 @@
 /*  copyright*/
+* {
+  font-family:Arial;
+}
+
 @media only screen and (max-width: 500px) {
   header {
     text-align: center;
@@ -21,6 +25,6 @@
   }
   
   div {
-    line-height: 10%;
+    line-height: 0.2em;
   }
 }
