@@ -7,6 +7,10 @@
   header {
     text-align: center;
   }
+  
+  h2 {
+    font-size: 1.4em;
+  }
   header p{
     margin-top: 0em;  
   }
