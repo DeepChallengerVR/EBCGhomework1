@@ -24,7 +24,15 @@
     width: 80%;
   }
   
-  div {
+  #education {
+    line-height: 0.2em;
+  }
+
+  #technicalQualifications {
+    line-height: 0.2em;
+  }
+  
+  .sectionT {
     line-height: 0.2em;
   }
 }
