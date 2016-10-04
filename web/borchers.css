@@ -1,3 +1,26 @@
 /*  copyright*/
+@media only screen and (max-width: 500px) {
+  header {
+    text-align: center;
+  }
+  header p{
+    margin-top: 0em;  
+  }
+  
+  #bigName {
+    color: red;
+    margin-bottom: 0em;
+    
+  }
 
-
+  body {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 31.25em;
+    width: 80%;
+  }
+  
+  div {
+    line-height: 10%;
+  }
+}
