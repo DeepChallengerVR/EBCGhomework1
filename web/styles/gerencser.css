@@ -1,0 +1,75 @@
+/* © Erik Borchers and Chris Gerencser 2016*/
+*{
+  font-family: sans-serif;
+  font-size: 1em;
+}
+
+.contact{
+  display: inline;
+}
+
+p{
+  margin: 0em;
+}
+
+header{
+  text-align: center;
+}
+
+h1{
+  margin-top: 5%;
+  margin-bottom: 0em;
+  font-size: 160%;
+}
+
+h2{
+  margin: 0em;
+}
+
+h3{
+  margin: 0em;
+}
+
+ul{
+  margin: 0em;
+}
+
+span.dates{
+  float: right;
+  font-size: 100%;
+}
+
+span.dates:not(#eddate){
+  margin-top: -1em;   
+}
+.title{
+  font-size: 100%;
+}
+
+body{
+  margin-left: auto; 
+  margin-right: auto;
+  max-width: 50em;
+  padding-left: 5em;
+  padding-right: 5em;
+}
+
+@media only screen and (max-width: 500px){
+  #bullet{
+    display: none;
+  }
+
+  .contact{
+    display: block;
+  }
+
+  span.dates{
+    float: none;
+    display: block;
+  }
+
+  span.dates:not(#eddate){
+    margin-top: 0em;   
+  }
+
+}
