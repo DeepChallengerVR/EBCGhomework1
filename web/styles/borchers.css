@@ -54,6 +54,10 @@ body{
   padding-right: 5em;
 }
 
+#fakeIntern {
+    color: red;
+}
+
 @media only screen and (max-width: 500px){
   #bullet{
     display: none;
